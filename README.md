@@ -8,3 +8,231 @@ vs code
 
 ## Theory -
 
+An array is a fixed-size sequential collection of elements of the same type stored in contiguous memory locations. 
+The lowest address corresponds to the first element, and the highest address corresponds to the last element. Array indices start at 0.
+
+#### Declaring an Array:
+
+- array_size must be an integer constant greater than zero. // Accesses the 10th element of the array
+- type can be any valid C++ data type.
+  
+      type arrayName[array_size];
+
+#### Initializing an Array:
+- Arrays can be initialized element by element or using a single statement
+- The number of values in {} should not exceed array_size.
+
+      int arr[5] = {1000, 2, 3, 17, 50};
+
+### Accessing Array Elements:
+- An element can be accessed by indexing the array name.
+  
+       int num = arr[9];
+- Above statement accesses the 10th element of the array
+  
+#### Key Points:
+- Arrays store multiple values of the same type.
+- Indexes begin at 0.
+- The last element of an array with size n is at index n-1.
+
+## Code -
+### 1. *Array declarations* -
+To declare an array, specify the type of elements and the number of elements required. 
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include <iostream>
+using namespace std;
+int main()
+{
+    int array1[2] = {1, 2}; 
+    int array2[2] = {2, 4}; 
+    int array3[2] = {1, 3};
+    for (int i = 0; i < 2; i++) 
+    { 
+        cout << array1[i] << " ";
+    }
+         cout << endl; 
+         for (int value : array2) 
+         { 
+             cout << value << " "; 
+             
+         } cout << endl;
+    return 0;
+}
+```
+
+### 2. *Input output array* -
+In C++, prompt the user for the array size and declare the array.
+Use a loop to input elements into the array and another loop to output them. 
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i,j=0,k,l,temp;
+    cout<<"enter size of array";
+    cin>>n;
+    int a1[n],a2[n];
+    for (i=0;i<n;i++)
+    {
+        cout<<"enter element-"<<i+1<<": ";
+        cin>>a1[i];
+    }
+}
+```
+
+### 3. *Reversing array* -
+This function takes an array and its size as parameters
+It uses two pointers, start and end, initialized to the beginning and end of the array, respectively.
+It swaps the elements at these positions and moves the pointers towards the center until they meet.
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+using namespace std;
+
+int main() {
+    int n, i, j=0, k, l, temp;
+    cout<<"Enter size of array: ";
+    cin>>n;
+    int a1[n], a2[n];
+
+
+    for(i=0;i<5;i++) {
+        cout<<"Enter element-"<<i+1<<": ";
+        cin>>a1[i];
+    }
+
+    cout<<"\nArray given by user: ";
+    for(l=0;l<5;l++) {
+        cout<<a1[l];
+    }
+    cout<<endl;
+
+    for(k=4;k>=0;k--) {
+        temp = a1[k];
+        a2[j] = temp;
+        j++;
+    }
+
+    cout<<"Reversed array: ";
+    for(l=0;l<5;l++) {
+        cout<<a2[l];
+    }
+}
+```
+
+### 4. *Search elements in Array* -
+*Input Array*: Collect array size and elements from the user.
+
+*Search Element*: Use a loop to check if the target element exists in the array.
+
+*Output Result*: Print the index if found; otherwise, indicate that the element was not found.
+ ```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+using namespace std;
+int main() {
+    int marks[5], i, j, num, flag=0, count=0;
+    for(i=0;i<5;i++) {
+        cout<<"Enter element-"<<i+1<<": ";
+        cin>>marks[i];
+    }
+    cout<<"Enter element to be searched: ";
+    cin>>num;
+    for(j=0;j<5;j++) {
+        if(marks[j]==num) {
+            cout<<"Position of "<<num<<": "<<j+1<<endl;
+            count++;
+            flag=1;
+        }
+    }
+    if(flag==0) {
+        cout<<"Element not present";
+    }
+    else if(flag==1) {
+        cout<<"Element is present: "<<count<<" times";
+    }
+}
+```
+
+### 5. *Sum and Average of Array* -
+*Calculate Sum*: Add each element to a running total.
+
+*Calculate Average*: Divide the sum by the number of elements.
+
+*Output*: Print the sum and average of the array elements.
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+using namespace std;
+int main() {
+int a1[5], i, j;
+float sum=0, avg;
+for(i=0;i<5;i++) {
+cout<<"Enter element-"<<i+1<<":";
+cin>>a1[i];
+}
+for(j=0;j<5;j++) {
+sum = sum + a1[j];
+}
+cout<<"Sum of elements = "<<sum<<endl;
+avg = sum/5;
+cout<<"Average = "<<avg;
+}
+```
+
+### 6. *Max and Min element of Array* -
+*Initialize*: Set the first element as both the initial maximum and minimum.
+
+*Iterate*: Compare each element to update the maximum and minimum values.
+
+*Output*: Print the maximum and minimum values found.
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+using namespace std;
+int main() {
+int n, i, max=0;
+cout<<"Enter number of elements: ";
+cin>>n;
+int a[n];
+for(i=0;i<n;i++){
+cout<<"Enter element-"<<i<<": ";
+cin>>a[i];
+}
+for(i=0;i<n;i++){
+if(a[i]>max){
+max=a[i];
+}
+}
+int min=a[0];
+for(i=0;i<n;i++){
+if(min>a[i]){
+min=a[i];
+}
+}
+cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
+}
+```
+
+## Output -
+### 1. *Array declaration*
