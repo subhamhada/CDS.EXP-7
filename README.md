@@ -236,3 +236,27 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 
 ## Output -
 ### 1. *Array declaration*
+![Screenshot 2024-08-07 011657](https://github.com/user-attachments/assets/af1affcd-dd12-4ee4-a4af-da2411ee92ac)
+
+### 2. *Input output array*
+![Screenshot 2024-08-07 011749](https://github.com/user-attachments/assets/1e060af1-06d8-4fbd-9160-65e13d778d1e)
+
+### 3. *Reversing array*
+![Screenshot 2024-08-07 011848](https://github.com/user-attachments/assets/e326c2b9-b08a-4960-80cd-d645a68b2df2)
+
+### 4. *Search elements in Array*
+-If present
+![Screenshot 2024-08-07 011944](https://github.com/user-attachments/assets/c43bdadd-6616-4c19-b26c-99c88800c204)
+-if not present
+![Screenshot 2024-08-07 012016](https://github.com/user-attachments/assets/f078bef1-9007-4481-a1ca-5833722f9492)
+
+### 5. *Sum and Average of Array*
+![Screenshot 2024-08-07 012101](https://github.com/user-attachments/assets/d5a70dc3-d6a7-415f-9c96-d2ba0fc8f210)
+
+### 6. *Max and Min element of Array*
+![Screenshot 2024-08-07 012140](https://github.com/user-attachments/assets/14f67e64-b8af-45d1-83a0-7a2359b26109)
+
+## Conclusion -
+Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
+
+Arrays provide efficient storage and access for a fixed number of elements but are limited in flexibility compared to dynamic data structures.
