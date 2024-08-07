@@ -8,6 +8,7 @@ Vs code
 
 ## Theory -
 
+### Array:
 An array is a fixed-size sequential collection of elements of the same type stored in contiguous memory locations. 
 The lowest address corresponds to the first element, and the highest address corresponds to the last element. Array indices start at 0.
 
@@ -35,7 +36,12 @@ The lowest address corresponds to the first element, and the highest address cor
 - Indexes begin at 0.
 - The last element of an array with size n is at index n-1.
 
+### String:
+A string is a sequence of characters used as an object of the class. The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte 
+character. A string is different from an array of characters.
+
 ## Code -
+### For arrays
 ### 1. *Array declarations* -
 To declare an array, specify the type of elements and the number of elements required. 
 ```
@@ -243,7 +249,104 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 }
 ```
 
+### For strings
+### 1. 
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include <iostream>
+#include<string>
+using namespace std;
+int main(){
+    string a;
+    cout<<"enter any word: ";
+    cin>>a;
+    cout<<" entered string is "<<a<<endl;
+    return 0;
+}
+```
+
+### 2.
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string a,b;
+    cout<<"enter strings: ";
+    cin>>a>>b;
+    cout<<"CONCATENATION: "<<a+b;
+    return 0;
+}
+```
+
+### 3.
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string a;
+    cout<<"enter string: ";
+    cin>>a;
+    int i;
+    for(i=a.length()-1;i>=0;i--)
+    {
+        cout<<a[i];
+    }
+    return 0;
+}
+```
+
+### 4. 
+A palindrome is a string that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
+```
+//subham
+//entc B2
+//23070123132
+//experiment 7
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string a;
+    cout<<"enter a string: ";
+    cin>>a;
+    int n=a.length(),i,flag=0;
+    for(i=0;i<a.length();i++)
+    {
+        if(a[i]==a[n-1])
+        {
+            flag=1;
+        }
+        n--;
+    }
+    if(flag==1)
+    {
+        cout<<a<<" is palindrome";
+    }
+    else
+    {
+        cout<<a<<" is not palindrome";
+    }
+}
+```
+
 ## Output -
+### For arrays
 ### 1. *Array declaration*
 ![Screenshot 2024-08-07 090814](https://github.com/user-attachments/assets/8df54ddc-2c70-42b4-94a1-9af29c2aa6f4)
 
@@ -264,6 +367,12 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 
 ### 6. *Max and Min element of Array*
 ![Screenshot 2024-08-07 012140](https://github.com/user-attachments/assets/14f67e64-b8af-45d1-83a0-7a2359b26109)
+
+### For Strings
+### 1. *prining string input*
+### 2. *concatenation of strings*
+### 3. *reverse in string*
+### 4. *palindrome checking in string*
 
 ## Conclusion -
 Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
