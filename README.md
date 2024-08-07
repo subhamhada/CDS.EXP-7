@@ -245,7 +245,7 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 
 ## Output -
 ### 1. *Array declaration*
-![Screenshot 2024-08-07 011657](https://github.com/user-attachments/assets/af1affcd-dd12-4ee4-a4af-da2411ee92ac)
+![Screenshot 2024-08-07 090814](https://github.com/user-attachments/assets/8df54ddc-2c70-42b4-94a1-9af29c2aa6f4)
 
 ### 2. *Input output array*
 ![Screenshot 2024-08-07 011749](https://github.com/user-attachments/assets/1e060af1-06d8-4fbd-9160-65e13d778d1e)
