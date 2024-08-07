@@ -1,7 +1,7 @@
 # Experiment 7
 
 ## Aim -
-To study and implement c++ arrays
+To study and implement c++ arrays and strings
 
 ## Apparatus -
 Vs code
