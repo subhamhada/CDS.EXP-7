@@ -250,7 +250,7 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 ```
 
 ### For strings
-### 1. 
+### 1. *Prining String Input*
 ```
 //subham
 //entc B2
@@ -268,7 +268,7 @@ int main(){
 }
 ```
 
-### 2.
+### 2. *Concatenation Of Strings*
 ```
 //subham
 //entc B2
@@ -287,7 +287,7 @@ int main()
 }
 ```
 
-### 3.
+### 3. *Reverse In String*
 ```
 //subham
 //entc B2
@@ -310,7 +310,7 @@ int main()
 }
 ```
 
-### 4. 
+### 4. *Palindrome Checking In String*
 A palindrome is a string that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
 ```
 //subham
@@ -357,9 +357,9 @@ int main()
 ![Screenshot 2024-08-07 011848](https://github.com/user-attachments/assets/e326c2b9-b08a-4960-80cd-d645a68b2df2)
 
 ### 4. *Search elements in Array*
--If present
+- If present
 ![Screenshot 2024-08-07 011944](https://github.com/user-attachments/assets/c43bdadd-6616-4c19-b26c-99c88800c204)
--if not present
+- if not present
 ![Screenshot 2024-08-07 012016](https://github.com/user-attachments/assets/f078bef1-9007-4481-a1ca-5833722f9492)
 
 ### 5. *Sum and Average of Array*
@@ -370,14 +370,19 @@ int main()
 
 ### For Strings
 ### 1. *prining string input*
-### 2. *concatenation of strings*
-### 3. *reverse in string*
-### 4. *palindrome checking in string*
 ![Screenshot 2024-08-07 100350](https://github.com/user-attachments/assets/05aba2ab-9044-45ab-9003-15b38bcd87c6)
+### 2. *concatenation of strings*
 ![Screenshot 2024-08-07 100417](https://github.com/user-attachments/assets/72095d17-4972-490e-aa24-7b6cc22542a5)
+### 3. *reverse in string*
 ![Screenshot 2024-08-07 100448](https://github.com/user-attachments/assets/5488fbb7-18fb-4e6d-a435-dbc865ee4103)
+### 4. *palindrome checking in string*
+- palindrome
+![Screenshot 2024-08-07 100542](https://github.com/user-attachments/assets/a3edfbe7-06ef-474e-b00c-84ea267cc278)
+- not palindrome
+![Screenshot 2024-08-07 100516](https://github.com/user-attachments/assets/aceb181f-4d4b-4d41-8b65-2d4b71693250)
 
 ## Conclusion -
 Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
-
 Arrays provide efficient storage and access for a fixed number of elements but are limited in flexibility compared to dynamic data structures.
+
+`string` class allows you to handle text easily, using double quotes for initialization and the `+` operator for concatenation. You can access individual characters, check the length with `length()`, and extract parts of the string using `substr()`. Additionally, you can compare strings and read user input with `getline()`, making string manipulation straightforward.
