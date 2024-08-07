@@ -373,6 +373,9 @@ int main()
 ### 2. *concatenation of strings*
 ### 3. *reverse in string*
 ### 4. *palindrome checking in string*
+![Screenshot 2024-08-07 100350](https://github.com/user-attachments/assets/05aba2ab-9044-45ab-9003-15b38bcd87c6)
+![Screenshot 2024-08-07 100417](https://github.com/user-attachments/assets/72095d17-4972-490e-aa24-7b6cc22542a5)
+![Screenshot 2024-08-07 100448](https://github.com/user-attachments/assets/5488fbb7-18fb-4e6d-a435-dbc865ee4103)
 
 ## Conclusion -
 Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
