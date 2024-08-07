@@ -4,7 +4,7 @@
 To study and implement c++ arrays
 
 ## Apparatus -
-vs code
+Vs code
 
 ## Theory -
 
