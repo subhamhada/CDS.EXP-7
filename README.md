@@ -13,7 +13,7 @@ The lowest address corresponds to the first element, and the highest address cor
 
 #### Declaring an Array:
 
-- array_size must be an integer constant greater than zero. // Accesses the 10th element of the array
+- array_size must be an integer constant greater than zero. Accesses the 10th element of the array
 - type can be any valid C++ data type.
   
       type arrayName[array_size];
