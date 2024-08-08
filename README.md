@@ -12,29 +12,40 @@ Vs code
 An array is a fixed-size sequential collection of elements of the same type stored in contiguous memory locations. 
 The lowest address corresponds to the first element, and the highest address corresponds to the last element. Array indices start at 0.
 
-#### Declaring an Array:
+## Declaring an Array:
 
-- array_size must be an integer constant greater than zero. Accesses the 10th element of the array
-- type can be any valid C++ data type.
+Specifies the type of the elements and the number of elements. array_size must be an integer constant greater than zero. Accesses the 10th element of the array. type can be any valid C++ data type.
   
       type arrayName[array_size];
+- Type is the data type of the elements (e.g., int, float, double, char).
+- arrayName is the name you want to give to the array.
+- arraySize is the number of elements in the array.
 
-#### Initializing an Array:
-- Arrays can be initialized element by element or using a single statement
-- The number of values in {} should not exceed array_size.
+### *key point about declaring an array* :
+- The size of the array (array_size) must be an integer constant greater than zero.
+- Once the size of the array is defined, it cannot be changed
+
+## Initializing an Array:
+Arrays can be initialized element by element or using a single statement. Provides initial values to the elements of the array. The number of values in {} should not exceed array_size.
 
       int arr[5] = {1000, 2, 3, 17, 50};
+- The number of values between braces { } cannot be larger than the number of elements that we declare for the array between square brackets [ ]. 
 
-### Accessing Array Elements:
-- An element can be accessed by indexing the array name.
+### *key point about initializating an array* :
+- The number of elements in the initializer list cannot exceed the size of the array.
+- If you initialize an array without specifying the size, C++ will automatically determine the size based on the number of elements in the initializer list
+
+## Accessing Array Elements:
+An element can be accessed by indexing the array name. This is done by placing the index of the element within square brackets after the name of the array.
   
        int num = arr[9];
 - Above statement accesses the 10th element of the array
-  
-#### Key Points:
-- Arrays store multiple values of the same type.
-- Indexes begin at 0.
-- The last element of an array with size n is at index n-1.
+
+### *key point about accessing array elements* :
+- Array indices start from 0. Therefore, the first element of the array has an index of 0, the second element has an index of 1, and so on.
+- Accessing an index outside the array's bounds (e.g., using an index greater than or equal to the array's size) results in undefined behavior
+
+## *Key Points about arrays* :
 
 - *Definition* : An array is a variable that can store multiple values of the same type.
 
@@ -48,7 +59,7 @@ The lowest address corresponds to the first element, and the highest address cor
 
 - *Element Size* : Each element's address increases based on its size; if an int is 4 bytes, addresses increment by 4 for each element
 
-### String:
+## String:
 A string is a sequence of characters used as an object of the class. The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte 
 character. A string is different from an array of characters.
 
