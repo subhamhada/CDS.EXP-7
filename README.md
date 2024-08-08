@@ -36,6 +36,18 @@ The lowest address corresponds to the first element, and the highest address cor
 - Indexes begin at 0.
 - The last element of an array with size n is at index n-1.
 
+- *Definition* : An array is a variable that can store multiple values of the same type.
+
+- *Use of Arrays* : Regular variables (e.g., v1, v2, v3) are manageable for a few objects, but arrays are needed for a larger number of instances.
+
+- *Indexing* : Array indexes start at 0, with the first item at index x[0].
+
+- *Last Element* : The last element in an array of size n is at index (n-1), e.g., x[5] for an array of size 6.
+
+- *Sequential Addresses* : Array elements have sequential memory addresses. For example, if x[0] is at address 2120, then x[1] is at 2124, x[2] at 2128, etc.
+
+- *Element Size* : Each element's address increases based on its size; if an int is 4 bytes, addresses increment by 4 for each element
+
 ### String:
 A string is a sequence of characters used as an object of the class. The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte 
 character. A string is different from an array of characters.
