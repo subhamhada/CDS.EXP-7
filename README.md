@@ -8,13 +8,13 @@ Vs code
 
 ## Theory -
 
-### Array:
+### *Array* :
 An array is a fixed-size sequential collection of elements of the same type stored in contiguous memory locations. 
 The lowest address corresponds to the first element, and the highest address corresponds to the last element. Array indices start at 0.
 
 ## Declaring an Array:
 
-Specifies the type of the elements and the number of elements. array_size must be an integer constant greater than zero. Accesses the 10th element of the array. type can be any valid C++ data type.
+Specifies the type of the elements and the number of elements.To declare an array, specify the type of elements and the number of elements required. array_size must be an integer constant greater than zero. Accesses the 10th element of the array. type can be any valid C++ data type.
   
       type arrayName[array_size];
 - Type is the data type of the elements (e.g., int, float, double, char).
